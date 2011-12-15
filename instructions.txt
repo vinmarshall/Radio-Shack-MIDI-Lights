@@ -1,10 +1,11 @@
-Building the Radio Shack MIDI Lights project:
+Instructions for building the Radio Shack MIDI Lights project:
+
 
 WARNING:  Using this project to control holiday lights involves working 
 with High Voltage.  This can potentially hurt or kill you, burn you house down, 
 that kind of thing.  If you are not experienced, capable, and comfortable 
 working with 120VAC mains power, do not attempt this part of the project.  
-Instead, use this project to control 12V lighting.
+Instead, use this project to control low voltage lighting.
 
 
 1. Acquire the parts, inspect the schematic,  and build the circuit board.  
@@ -15,7 +16,8 @@ build it on a perfboard with point to point wiring.
 
 If you chose to have it made at Express PCB, try to team up with some other 
 people to reduce your price - the minimum order is 2 board and the price per 
-board goes down with quantity.
+board goes down with quantity.  Feel free to contact me - I may also have 
+boards left over from a bulk order that I will sell.
 
 If you are going to build it on a perfboard, you should be able to fit 
 everything on a Radio Shack p/n 276-147 if you keep it compact.  You can still
@@ -28,15 +30,28 @@ Download the Arduino code from the github repository, compile it, and
 upload it onto your Arduino.  This project was built and testing using an 
 Arduino Uno.
 
+I would recommend testing the project with the code as is before you make
+any changes so that you can verify the hardware, your MIDI source's 
+compatability with the Arduino's MIDI library and this code, etc...
+
 
 3. Connect the circuit board to the Arduino.
 
 You can do this in any number of ways.  If you want the quickest and cheapest
 approach, just run wires from the connection points on the circuit board and
-plug them into the Arduino headers. 
+plug them into the Arduino headers.  I don't recommend this method for 
+anything except prototyping and testing however.
 
-The method I prefer is to use 0.1" headers on the circuit board and jumpers
-with connections that will fit over those headers.
+The method I prefer is to use 0.1" headers on the circuit board and to 
+make the connection with ribbon cable jumpers.
+
+Either make your own jumpers with male pins on the Arduino end
+so that you can plug them directly into the Arduino headers, or do what
+I think is the cleanest, if not the cheapest solution:  Use a "maker shield" - 
+essentially a bare Arduino shield - and set up 0.1" header pins for each 
+of the jumpers that need to go over to the circuit board.  Then just make
+or buy the jumper cables to go between the headers on your Arduino shield 
+and the headers on your circuit board.
 
 
 4. Test the setup.
@@ -53,11 +68,23 @@ relays turning on and off.  You can see which relays are active by the LEDs.
 
 This step is entirely at your own discretion and risk.  If you are not 
 experienced and 100% comfortable with high voltage, DO NOT attempt to connect
-120VAC lighting to this project.  Use 12V lighting instead.
+120VAC lighting to this project.  Use low voltage lighting instead.
 
 If you choose to use 120VAC lighting, the relays are configured to work as 
 light switches through their associated terminal blocks.  Wire the lighting
 accordingly. 
 
+
+DISCLAIMER:  This project is not a consumer product; it is just one hobbyiest 
+sharing his plans.  It is provided "AS IS" without warranty of any kind, 
+either expressed or implied, including, but not limited to the implied 
+warranties of merchantability and fitness for a particular purpose.  You 
+are building and operating this at your own risk.  
+
+If you are going to use this project to switch mains power, you should be 
+aware of and in compliance with UL 60950-1, IPC-2221A, and any and all 
+other relevant or applicable standards.  Please do not attempt to use this 
+to switch mains power if you do not possess suffient experience to do 
+so safely.
 
 
