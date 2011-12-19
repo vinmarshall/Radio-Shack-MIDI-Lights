@@ -65,7 +65,7 @@ compatability with the Arduino's MIDI library and this code, etc...
 
 If you want to program the Arduino after you've connected it to the MIDI lights
 circuit (1) make sure the lighting power is disconnected and (2) set the 
-MIDI / Program switch located next to the MIDI connector to "Program".  Switch 
+MIDI / PROG switch located next to the MIDI connector to "PROG".  Switch 
 it back to MIDI after programming is complete.
 
 
