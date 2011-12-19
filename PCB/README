@@ -1,0 +1,32 @@
+The files in this directory pertain to the printed circuit board design.
+
+Even if you don't choose to have your board professionally made, the mechanical
+drawings, pictures of component placement, and the PDFs of the board layers
+may help you in putting together your own board.  
+
+I had my board made by ExpressPCB (great when you're in a hurry) and the board 
+and schematic files here are in their program's format.
+
+pcb_bottom_traces.pdf - The traces on the bottom side of the board.
+
+pcb_components.bmp - How the components are laid out on top of the board.
+
+pcb_dimensions.AD_DRW - Alibre CAD version of the pcb_dimensions.pdf 
+
+pcb_dimensions.pdf - A mechanical drawing of the board with dimensions.
+
+pcb_mechanical.dxf - DXF (2-D CAD) mechanical drawing of the board.
+
+pcb_silkscreen.pdf - The silkscreen layer on top of the board.
+
+pcb_top_traces.pdf - The traces on the top side of the board.
+
+./PCBComponents_Custom - Custom components from this board for the ExpressPCB software.
+
+rs_midi_lights.pcb - ExpressPCB file with the board.
+
+rs_midi_lights.sch - ExpressPCB file with the schematic.
+
+./SchComponents_Custom - Custom components from this circuit for the ExpressPCB software.
+
+./SchSymbols_Custom - Custom symbols from this cicuit for the ExpressPCB software.
