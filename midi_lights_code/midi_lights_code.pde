@@ -8,6 +8,9 @@
  * This is the code for the project featured in the December 2011 issue
  * of Popular Science.
  *
+ * Check the Github repository for the most recent version of this file
+ * https://github.com/vinmarshall/Radio-Shack-MIDI-Lights
+ *
  */
 
 // Shift Register Pin Assignments
