@@ -1,5 +1,8 @@
 Instructions for building the Radio Shack MIDI Lights project:
 
+Check the Github repository for the most recent version of this document:
+https://github.com/vinmarshall/Radio-Shack-MIDI-Lights
+
 
 WARNING: It is strongly recommended that you use this project to control
 low voltage lighting only, unless you are highly experienced in working with 
@@ -12,16 +15,16 @@ etc...
 
 Inspect the schematic for this project, which is in the schematic/ directory.
 Each file corresponds to one section of the circuit.  The connections between
-them are shown with busses, like the +12V, Gnd, or DS busses.
+them are shown with busses, like the +12V, Gnd, and DS busses.
 
-The parts to populate this circuit are listed in the parts/ directory, in the 
+The parts to build this circuit are listed in the parts/ directory, in the 
 circuit_board_BOM as correlated to component numbers on the schematic and pcb 
 and in the ordering_BOM as an overall Bill of Materials for the project.  
 
 The PCB itself is defined in the files in the ./PCB directory.  Look at the 
 pcb_components.bmp and pcb_dimensions.pdf files to get a general idea of 
-the board and my component placement.  The pcb_top_traces.pdf and 
-pcb_bottom_traces.pdf will show you how I've routed my traces.
+the board and the component placement.  The pcb_top_traces.pdf and 
+pcb_bottom_traces.pdf will show you the traces.
 
 If you have a windows machine, you can download the free ExpressPCB 
 software from http://www.expresspcb.com/ that will open the 
@@ -31,18 +34,17 @@ You can use the board layout I have provided and order your board directly
 from ExpressPCB, you can design and etch your own PCB layout, or you can 
 build it on a perfboard with point to point wiring.  Which ever way you 
 decide to construct this, pay careful attention to isolation of the wires or 
-traces that carry the main power that will drive the lights as well as the 
-size of the wires of traces that will carry that power.
+traces that carry the lighting power as well as the size of those wires or traces.
 
 If you chose to have it made at Express PCB, try to team up with some other 
-people to reduce your price - the minimum order is 2 boards and the price per 
+people to reduce your cost - the minimum order is 2 boards and the price per 
 board goes down sharply with quantity.  Feel free to contact me - I may also 
 have boards left over from a bulk order that I will sell.
 
 If you are going to build it on a perfboard, you should be able to fit 
 everything on 2 of Radio Shack p/n 276-147 - one for the relays and terminals, 
-and one for everything else. You can still use my board layout as a guide 
-for where to place the components.
+and one for everything else. You can use my board layout as a guide for 
+where to place the components.
 
 The circuit and pc board have only been designed and tested as specified in the 
 rs_midi_lights.sch and rs_midi_lights.pcb files.  Check the github repository 
@@ -52,7 +54,7 @@ for the most recent versions of these files.
 2. Program the Arduino.  
 
 Make sure you have the most recent version of the code by checking the 
-github repository at:  https://github.com/vinmarshall/Radio-Shack-MIDI-Lights
+github repository.
 
 Download the Arduino code, compile it, and upload it onto your Arduino.
 This project was built and testing using an Arduino Uno.
@@ -104,8 +106,8 @@ Put the board in some kind of suitable enclosure before you make your connection
 to power.  A suitable enclosure will isolate and protect the component leads 
 and wiring / traces on the board from any contact with contaminants, foreign 
 objects, body parts, and any conductive part of the enclosure.  The board should 
-be isolated by at least 1" an inch from anything conductive.  The board 
-cannot be left exposed because of risk of contact with the power traces.
+be isolated by at least 1 inch from anything conductive.  The board cannot be 
+left exposed because of the risk of contact with the power traces.
 
 This board and this circuit are NOT designed to be used outside or in any 
 kind of harsh environment.
