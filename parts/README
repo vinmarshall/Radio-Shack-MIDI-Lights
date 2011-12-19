@@ -1,7 +1,8 @@
 The files in this directory contain information on sourcing parts for this 
 project.  
 
-circuit_board_BOM - A chart correlating part numbers on the schematic and PCB to actual parts.
+circuit_board_BOM - A chart correlating part numbers on the schematic and 
+  PCB to actual parts.
 
 ordering_BOM - A Bill of Materials for ordering parts for this project.
 
@@ -13,9 +14,11 @@ exactly cheap, but they are quick.  You may want to team up with a few other
 people building this circuit, as the unit price quickly goes down with quantity.
 
 Instructions - 
- - Download their software from http://www.expresspcb.com/ if you don't already have it.
+ - Download their software from http://www.expresspcb.com/ if you don't already 
+   have it.
  - Open the ./PCB/rs_midi_lights.pcb file
- - From the 'Layout' menu, select "Compute Board Cost" to see your options (Standard or Proto) and then "Order Boards via the Internet" to order.
+ - From the 'Layout' menu, select "Compute Board Cost" to see your options 
+   (Standard or Proto) and then "Order Boards via the Internet" to order.
 
 I've also included PDFs of the top, bottom, and silkscreen layers as well as a 
 mechanical drawing of the board and a picture of the component placement which 
@@ -31,7 +34,7 @@ ENCLOSURE:
 
 I haven't specified a specific enclosure for this project, but make sure you 
 enclose it completely in something to protect it from contamination, foreign 
-objects, and your hands - especially if you choose to run 120VAC on the power
+objects, hands, etc... - especially if you choose to run 120VAC on the power
 busses.  They CANNOT be left exposed.
 
 

@@ -2,7 +2,9 @@ These files are the plans for the "Radio Shack MIDI Lights" project
 that was featured in the December 2011 issue of Popular Science.  Look at 
 the instructions file for more information.
 
-./PCB - Circuit schematic and board layout.  Express PCB files plus images of the trace layers and mechanical drawings of the board.
+./PCB - Circuit schematic and board layout.  
+  Express PCB files plus images of the trace layers and mechanical drawings 
+  of the board.
 
 ./midi_lights_code - Arduino code
 

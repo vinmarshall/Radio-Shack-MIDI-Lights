@@ -21,12 +21,14 @@ pcb_silkscreen.pdf - The silkscreen layer on top of the board.
 
 pcb_top_traces.pdf - The traces on the top side of the board.
 
-./PCBComponents_Custom - Custom components from this board for the ExpressPCB software.
+./PCBComponents_Custom - Custom components from this board for the ExpressPCB 
+  software.
 
 rs_midi_lights.pcb - ExpressPCB file with the board.
 
 rs_midi_lights.sch - ExpressPCB file with the schematic.
 
-./SchComponents_Custom - Custom components from this circuit for the ExpressPCB software.
+./SchComponents_Custom - Custom components from this circuit for the ExpressPCB 
+  software.
 
 ./SchSymbols_Custom - Custom symbols from this cicuit for the ExpressPCB software.
