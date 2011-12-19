@@ -1,12 +1,14 @@
 These files are the plans for the "Radio Shack MIDI Lights" project 
-that was featured in the December 2011 issue of Popular Science.  
+that was featured in the December 2011 issue of Popular Science.  Look at 
+the instructions file for more information.
 
-./parts - Bill of Materials and ordering information.
-
-./PCB - Express PCB files - schematic and board layout.
-
-./schematic - The schematic for the circuit.
+./PCB - Circuit schematic and board layout.  Express PCB files plus images of the trace layers and mechanical drawings of the board.
 
 ./midi_lights_code - Arduino code
 
+./parts - Bill of Materials and parts sourcing information.
+
+./schematic - The schematic for the circuit.
+
+instructions.txt - Instructions for building this project.
 
