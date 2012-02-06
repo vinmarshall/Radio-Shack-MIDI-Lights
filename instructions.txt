@@ -157,7 +157,7 @@ of your wiring and connections to it BEFORE you connect power to this project.
 It is ultimately your responsibility to do this safely.
 
 
-DISCLAIMER:  This project is not a consumer product; it is just one hobbyiest 
+DISCLAIMER:  This project is not a consumer product; it is just one hobbyist 
 sharing his plans.  It is provided "AS IS" without warranty of any kind, 
 either expressed or implied, including, but not limited to the implied 
 warranties of merchantability and fitness for a particular purpose.  You 
@@ -166,6 +166,6 @@ are building and operating this at your own risk.
 If you are going to use this project to switch mains power, you must be 
 aware of and in compliance with UL 60950-1, UL 62368, IPC-2221A, and any and 
 all other relevant or applicable standards.  Please do not attempt to use this 
-to switch mains power if you do not possess suffient experience to do so safely.
+to switch mains power if you do not possess sufficient experience to do so safely.
 
 
