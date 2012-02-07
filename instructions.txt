@@ -150,7 +150,8 @@ to your circuit's expected current draw.  Remember that the relays are rated for
 
 Connect the mounting hole at the upper left corner of the board - the one marked
 "GND" - to the chassis ground on your enclosure.  The Ground (green or bare) lead
-from your mains power supply should be grounded to the same point on the chassis. It is very important to make this ground connection.
+from your mains power supply should be grounded to the same point on the chassis. 
+It is very important to make this ground connection.
 
 Make sure you have thought through and checked the circuit, the board, and all
 of your wiring and connections to it BEFORE you connect power to this project. 
